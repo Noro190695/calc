@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	background-image: url(../img/prism.png);
+	background-size: contain;
+	background-position: center;
+}
+p{
+	margin-top: 100px;
+	text-align: center;
+	color: #B21717;
+	font-size: 20px;
+}
+#disply{
+	font-weight: bold;
+	text-align: right;
+	background: #000;
+	font-size: 20px;
+	color: #B21717;
+	border: none;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+.calc{
+	box-shadow: 1px 1px 1px 1px #000;
+	border: 2px solid #333333;
+	margin: 0px auto;
+	display: block;
+	width: 200px;
+	height: 300px;
+	background-image: url(../img/bgcalc.jpg);
+
+}
+.btn{
+	border-radius: 50%;
+	font-size: 20px;
+	font-weight: bold;
+	color: #B21717;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin: 5px 1px;
+	background: #B2B2B2;
+	transition: all ease 0.5s;
+}
+.btn:hover{
+	background: #006E58;
+}
+.ce{
+	display: inline-block;
+	width: 95px;
+	height: 35px;
+
+}
+.c{
+	margin-left: 2px;
+	display: inline-block;
+	width: 95px;
+	height: 35px;
+}
